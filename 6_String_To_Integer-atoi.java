@@ -10,7 +10,6 @@ class Solution {
         boolean numbersStarted = false;
         for(int i = 0 ; i < letters.length ; ++i) {
             char c = letters[i];
-            
             if(!Character.isDigit(c)) {
                 if(numbersStarted) {
                     break;
@@ -54,8 +53,6 @@ class Solution {
         if(isNegative) {
             result = result * -1;
         }
-        
         return (int)result;
-        
     }
 }
